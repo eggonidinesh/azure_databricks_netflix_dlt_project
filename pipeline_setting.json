@@ -1,0 +1,20 @@
+{
+  "id": "5ecdc8ab-87b1-4f6a-b7bf-983ac955f482",
+  "pipeline_type": "WORKSPACE",
+  "name": "DLT_GOLD",
+  "libraries": [
+    {
+      "glob": {
+        "include": "/Workspace/Netflix Project/7_DLT_Notebook"
+      }
+    }
+  ],
+  "schema": "gold",
+  "continuous": false,
+  "development": false,
+  "photon": true,
+  "channel": "CURRENT",
+  "catalog": "netflix_catalog",
+  "serverless": true,
+  "root_path": "/Workspace/Netflix Project"
+}
